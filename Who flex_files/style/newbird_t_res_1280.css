@@ -1,0 +1,21 @@
+.trxMypFltPrf{display:none;}
+
+
+.trxMypCnt > div:first-child{width:calc(100% - 70px);margin:0 auto;}
+
+.trxMypFlt > dl > dt{width:120px;}
+.trxMypFlt > dl > dd{width:calc(100% - 119px);}
+
+.trxMypInt > .trxMypIntDpt01 > li{width:100%;margin-top:40px;}
+.trxMypInt > .trxMypIntDpt01 > li:first-child{margin-top:0;}
+.trxMypInt > .trxMypIntDpt01 > li::before{display:none;}
+
+.trxMypInt > .trxMypIntDpt01 > li > strong{padding-bottom:5px;}
+.trxMypInt > .trxMypIntDpt01 > li > ul{display:flex;flex-wrap:wrap;justify-content:space-between;}
+.trxMypInt > .trxMypIntDpt01 > li > ul > li:first-child{margin-top:10px;}
+.trxMypInt > .trxMypIntDpt01 > li > ul > li{width:calc(50% - 5px);margin-top:10px;}
+
+.trxMypInt > .trxMypIntDpt02 > ul > li{width:calc(50% - 5px);margin-bottom:10px;}
+.trxMypInt > .trxMypIntHas > span{margin-bottom:5px;}
+
+.common_list_txt .list_tit{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;display:block;}

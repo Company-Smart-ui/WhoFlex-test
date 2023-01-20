@@ -1,0 +1,1032 @@
+/* paging */
+.paging_wrap {
+  margin-top: 25px;
+}
+
+/* popup */
+.common_pop {
+  width: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 0;
+}
+.common_pop_tit {
+  font-size: 15px;
+  min-height: 50px;
+  padding: 15px 40px 15px 20px;
+}
+.common_pop_wrap .pop_close {
+  width: 30px;
+  height: 30px;
+  top: 10px;
+  right: 10px;
+  background: transparent url("/assets/images/class/pop_close.png") no-repeat center;
+  background-size: 16px auto;
+}
+.common_pop_cont {
+  padding: 10px 15px;
+  margin: 10px 0;
+}
+.common_pop_cont_scroll {
+  margin: 10px 5px 10px 0;
+  max-height: calc(100vh - 70px);
+}
+.review_wrte_list dt {
+  font-size: 15px;
+}
+
+.files_pop .common_pop_cont_scroll {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.pop_bottom_desc {
+  padding: 10px 15px 20px;
+}
+.pop_file_list li .exer_file_tit {
+  font-size: 14px;
+}
+.pop_file_list li .exer_file_info {
+  font-size: 12px;
+}
+
+/* buttons */
+.btn_arr s {
+  margin-left: 6px;
+  width: 12px;
+}
+
+/* fake select */
+.fake_select {
+  height: 45px;
+}
+.fake_select .select_tit {
+  height: 45px;
+  line-height: 44px;
+}
+.fake_select.fake_select_h35 {
+  height: 45px;
+}
+.fake_select.fake_select_h35 .select_tit {
+  height: 45px;
+  line-height: 44px;
+}
+.fake_select .select_tit span{
+  padding: 0 10px;
+}
+
+.fake_select .select_tit s {
+  right: 12px;
+}
+.fake_select .select_option {
+  padding: 5px 0;
+}
+.fake_select .select_option a {
+  padding: 0 10px;
+}
+
+.common_list_top .right .fake_select {
+  height: 45px;
+}
+
+/* input textarea */
+.common_input {
+  padding: 0 10px;
+  font-size: 13px;
+}
+.common_textarea {
+  font-size: 14px;
+  padding: 10px;
+  line-height: 1.6em;
+}
+
+/* main */
+.main_list_slide_wrap .swiper-slide .bottom .teacher {
+  font-size: 13px;
+}
+.main_list_slide_tit .main_slide_tit_pc {
+  display: none;
+}
+.main_list_slide_tit .main_slide_tit_mob {
+  display: inline-block;
+  height: 24px;
+  margin-top: -4px;
+}
+
+/* class - list */
+.commnet_list_top > .right .fake_select {
+	height: 45px;
+}
+.sub_top {
+  min-height: 100px;
+  padding-top: 40px;
+}
+.sub_top .common_tit {
+  margin-bottom: 0;
+  font-size: 21px;
+}
+.sub_top .history {
+  display: none;
+}
+.sub_top > .inner_1200 > p {
+  display: none;
+}
+
+.btn_mo_filter {
+  width: 45px;
+  height: 45px;
+}
+
+.topic_wrap {
+  /* margin: 12px 0 25px; */
+  margin: 30px 0 25px;
+}
+.topic_wrap h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.topic_wrap .topic_toggle {
+  display: none;
+}
+.topic_wrap .topic_toggle_mob {
+  display: block;
+  background: #f8f8f8;
+  text-align: center;
+  position: relative;
+  padding-top: 30px;
+}
+.topic_wrap .topic_toggle_mob:after {
+  content: "";
+  display: block;
+  width: calc(100% + 30px);
+  height: 1px;
+  background: #e6e6e6;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.topic_wrap .topic_toggle_mob {
+  font-size: 13px;
+  color: #888888;
+  position: relative;
+}
+.topic_wrap .topic_toggle_mob s {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  /* background: url("/assets/images/class/topic_arr.png") no-repeat center; */
+  background: url(/assets/images/instructor_bottom_btn.png) no-repeat center;
+  background-size: contain;
+  vertical-align: middle;
+  /* margin-left: 5px; */
+}
+.topic_wrap .topic_toggle_mob.on s {
+  transform: rotate(-180deg);
+}
+
+.topic_wrap .topic_box {
+  /* max-height: 85px; */
+  max-height: 185px;
+  overflow: hidden;
+}
+.topic_wrap .topic_box.on {
+  max-height: 100%;
+}
+.topic_wrap .topic_tag {
+  /* font-size: 13px;
+  height: 24px;
+  line-height: 22px; */
+  font-size: 16px;
+  min-height: 32px;
+  line-height: 30px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+.topic_wrap .topic_box_wrap {
+  padding: 15px 15px 10px;
+}
+
+.common_list_top {
+  border-bottom: 0; /* height:62px; */
+  position: relative;
+}
+.common_list_top:after {
+  content: "";
+  width: calc(100% + 40px);
+  height: 1px;
+  background: #ddd;
+  position: absolute;
+  bottom: 0;
+  left: -20px;
+}
+/* .common_list_top .right {margin-bottom:10px; } */
+.common_list_top .left .top_result {
+  font-size: 14px;
+}
+
+.class_list_wrap .top_level_wrap {
+  display: none;
+}
+.common_list_list {
+  width: calc(100% + 30px);
+  margin-left: -15px;
+}
+.common_list_box {
+  padding: 20px 15px;
+}
+.common_list_box .common_list_thum {
+  width: 130px;
+}
+.common_list_banner .main_list_slide_tit {
+	font-size: 22px;
+    line-height: 1.25em;
+}
+/* .top_level_wrap { display:none; }   */
+.top_label {
+  width: 56px;
+  height: 15px;
+  line-height: 15px;
+  padding: 0;
+  letter-spacing: -0.04em;
+}
+.top_label.top_label_featured {
+  letter-spacing: -0.06em;
+}
+.bottom_video {
+  display: none;
+}
+.common_list_txt {
+  width: calc(100% - 130px);
+  padding-left: 15px;
+}
+.list_cate_txt {
+  display: none;
+}
+
+.list_cate_wrap {
+  font-size: 13px;
+}
+.list_cate_wrap s {
+  width: 16px;
+  height: 14px;
+  margin-top: -5px;
+}
+
+.star_wr_mo {
+  display: block;
+  font-size: 14px;
+}
+.common_list_box .star_wr_mo {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+.common_list_txt .list_tit {
+  font-size: 17px;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.common_list_txt .teacher {
+  display: none;
+  font-size: 13px;
+}
+.common_list_txt .bottom {
+  justify-content: flex-end;
+}
+.class_list .common_list_txt .bottom > .left {
+  display: none;
+}
+.common_list_txt .bottom .price_wrap {
+  font-size: 15px;
+  margin-top: 2px;
+}
+.common_list_txt .bottom .ori_price {
+  margin-right: 5px;
+}
+.common_list_txt .bottom .free {
+  font-size: 18px;
+}
+.save_btns .n_btn {
+  width: 27px;
+  height: 27px;
+  position: relative;
+  margin: 0 5px;
+}
+.save_btns .n_btn:first-of-type {
+  margin-left: 0;
+}
+.save_btns .n_btn:last-of-type {
+  margin-right: 0;
+}
+.save_btns .n_btn:after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 15px;
+  background: #ddd;
+  vertical-align: middle;
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.save_btns .n_btn:last-child:after {
+  display: none;
+}
+.save_btns .btn_bookmark {
+  background-size: 9px 15px;
+}
+.save_btns .btn_cart {
+  background-size: 19px 15px;
+}
+.save_btns .btn_gift {
+  background-size: 15px auto;
+}
+
+/* .common_list_banner {
+  margin: 0;
+}
+.common_list_banner .swiper-container {
+  border-radius: 0;
+}
+.common_list_banner .swiper-slide {
+  display: block;
+  border-radius: 0;
+  padding: 15px;
+}
+.common_list_banner .img_wrap,
+.common_list_banner .list_banner_txt {
+  width: 100%;
+}
+.list_banner_txt .n_btn {
+  display: none;
+}
+.common_list_banner .list_banner_txt {
+  padding: 10px 10px 30px;
+}
+.list_banner_txt .tit {
+  font-size: 20px;
+  margin: 0;
+}
+.list_banner_txt .txt {
+  display: none;
+}
+
+.common_list_banner .swiper-container-horizontal > .swiper-pagination-bullets,
+.common_list_banner .swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 15px;
+  right: 10px;
+} */
+
+/* filter pop */
+.filter_pop_mob .common_pop_tit {
+  min-height: 50px;
+  font-size: 15px;
+  padding: 15px;
+}
+.filter_pop_mob .pop_close2 {
+  top: 15px;
+  right: 15px;
+}
+
+.filter_box {
+  padding: 10px 0 10px 0;
+}
+.filter_box_tit {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.filter_box > ul > li {
+  min-height: 26px;
+  line-height: 26px;
+}
+.filter_box .check_wrap {
+  font-size: 13px;
+}
+.filter_box .rating_ul {
+  padding: 0 10px;
+}
+
+/* class - overview ===============================================*/
+.overview_video_wrap .quiz_wrap {
+  padding-top: 45px;
+}
+.overview_video_wrap {
+  height: 300px;
+}
+.overview_titbar {
+  height: 45px;
+  line-height: 45px;
+}
+.overview_titbar .tit {
+  display: none;
+}
+/* .overview_titbar h3 { display:none; }
+.titbar_icon_wrap li .num { display:none; } 1024로 이동 */
+.titbar_icon_wrap {
+  margin-right: 0;
+}
+.titbar_icon_wrap .share_div {
+  right: -15px;
+}
+.overview_cont_txt {
+  font-size: 15px;
+  line-height: 24px;
+}
+.overview_right_box .teacher_profile .con {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/* class - quiz */
+.quiz_top .quiz_top_tit {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.quiz_top .quiz_top_tit s {
+  width: 19px;
+  height: 18px;
+  margin-right: 5px;
+}
+.quiz_top .quiz_top_num {
+  font-size: 14px;
+}
+.quiz_wrap .btn_wrap_01 {
+  margin-top: 25px;
+}
+.quiz_wrap .n_btn {
+  min-width: 120px;
+  max-width: 160px;
+  height: 40px;
+  line-height: 35px;
+  font-size: 13px;
+}
+
+/* quiz pop */
+.quiz_pop_quiz {
+  /* margin-bottom: 50px; */
+}
+.quiz_pop_quiz .quiz_pop_tit {
+  font-size: 15px;
+}
+.quiz_pop_txt {
+  font-size: 17px;
+}
+.quiz_answer_list .answer_btn {
+  min-height: 50px;
+  font-size: 15px;
+}
+.quiz_answer_list .answer_btn .num {
+  left: 15px;
+}
+.quiz_answer_list .answer_btn .answer {
+  padding-left: 25px;
+}
+
+.quiz_check_wrap {
+  padding: 20px;
+  font-size: 14px;
+}
+.quiz_check_tit {
+  font-size: 15px;
+}
+.quiz_check_tit s {
+}
+.gray_hr {
+  margin: 15px 0;
+}
+
+.info_pop_tit {
+  font-size: 24px;
+}
+.info_pop_txt {
+  font-size: 15px;
+  word-break: keep-all;
+  max-width: 65%;
+  margin: 0 auto;
+}
+.info_pop_txt p {
+  word-break: keep-all;
+}
+
+.popup_quiz_wrap .common_pop_cont .btn_wrap_01 {
+  padding: 40px 0 95px;
+  margin: 0;
+}
+.popup_quiz_wrap .common_pop_cont .btn_wrap_01 .n_btn {
+  min-width: 120px;
+  max-width: 160px;
+  width: calc(50% - 5px);
+  font-size: 13px;
+}
+
+.answer_collection .swiper-container {
+  padding: 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+.answer_collection .swiper-slide {
+  padding: 20px;
+  background: #f2f2f2;
+}
+.answer_collection .swiper-button-next,
+.answer_collection .swiper-button-prev {
+  display: none;
+}
+
+
+/* gift popup */
+
+.gift_pop_wrap .img_wrap dl dd {
+	display: block;
+	padding: 15px 15px 20px;
+}
+.gift_pop_wrap .img_wrap .common_list_thum {
+	width: 100%;
+}
+.gift_pop_wrap .img_wrap .prd_tit_wrap {
+	width: 100%;
+	padding: 0;
+	margin-top: 20px;
+}
+.gift_pop_wrap .img_wrap .prd_tit_wrap .tit {
+	font-size: 17px;
+}
+.gift_pop_wrap .img_wrap .prd_tit_wrap .teacher {
+	font-size: 14px;
+}
+
+
+
+
+/* overview tit */
+.overview_mob_tit { 
+	display:block; 
+	padding: 20px 15px;
+}
+.overview_mob_tit .common_tit { 
+	font-size: 19px;
+	margin-bottom: 10px;
+}
+
+
+/* overview tab */
+
+.overview_tab > ul {
+  width: 468px;
+}
+.overview_tab > ul > li {
+  width: 25%;
+}
+.overview_tab > ul button {
+  height: 45px;
+  line-height: 45px;
+  font-size: 14px;
+}
+.overview_tab > ul > li button s {
+  margin-right: 5px;
+}
+
+/* overview - overview */
+/* 오버뷰 하단 플로팅바 */
+.ovv_bottom_flying {
+  height: 60px;
+}
+.ovv_bottom_flying .price_wrap {
+  font-size: 16px;
+}
+.ovv_bottom_flying > .right .icons {
+	margin-right: 20px;
+}
+.ovv_bottom_flying > .right .n_btn {
+	width: 120px;
+	height: 60px;
+	line-height: 58px;
+}
+
+.overview_top_tit .common_tit {
+  font-size: 20px;
+}
+.overview_cont_wrap {
+  padding: 25px 15px 30px;
+  width: calc(100% + 30px);
+  margin-left: -15px;
+}
+.overview_cont_tit {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.overview_cont_skills .overview_cont_txt .n_btn {
+  height: auto;
+  line-height: 1.5em;
+  padding: 7px 15px;
+}
+
+.overview_right_box {
+  margin-top: 40px;
+}
+
+.related_banner_wrap .main_list_slide_tit {
+  font-size: 24px;
+}
+
+.main_list_slide_wrap .swiper-slide .box_relative_size {
+  /* height: 143px; */
+  height: 138px;
+}
+.main_list_slide_wrap .swiper-slide .bottom {
+  padding: 12px 10px 15px;
+}
+.main_list_slide_wrap .swiper-slide .bottom .cate {
+  font-size: 12px;
+}
+.main_list_slide_wrap .swiper-slide .bottom .tit {
+  font-size: 16px;
+  line-height: 1.2em;
+  height: 2.4em;
+}
+.main_list_slide_wrap .swiper-slide .bottom .teacher {
+  margin: 5px 0 10px;
+}
+
+/* overview - review */
+
+/* ovv_review search */
+.ovv_tit_wrap > .inner_1200 > .ovv_search_pop .ovv_search {
+  padding: 10px;
+}
+.ovv_tit_wrap > .inner_1200 > .ovv_search_pop .ovv_search .ovv_search_tit {
+  font-size: 14px;
+}
+
+.flying_review_btns .n_btn {
+  width: 85px;
+  height: 35px;
+  line-height: 35px;
+}
+
+/* common comments */
+
+/* .commnet_list_wrap {
+  padding: 30px 0 0;
+} */
+.commnet_list_top:after {
+}
+.commnet_list_top > .right {
+  float: none;
+}
+.commnet_list_top > .right .fake_select {
+  width: calc(50% - 1px);
+  margin-left: 2px;
+}
+.commnet_list_top > .right .fake_select:first-child {
+  margin-left: 0;
+}
+
+.commnet_list {
+  width: calc(100% + 30px);
+  margin-left: -15px;
+}
+.comment_box {
+  padding: 25px 15px 25px 50px;
+}
+
+.comment_user_info .comment_user_pic {
+  width: 30px;
+  height: 30px;
+  left: -40px;
+}
+.ovv_commnets_slide .comment_box {
+  padding: 20px 20px 30px 50px;
+}
+.comment_user_id {
+  margin-right: 10px;
+}
+.comment_time {
+  font-size: 12px;
+}
+.re_cont .re_tit {
+}
+.re_cont {
+  font-size: 15px;
+}
+
+/* 답글 */
+.reply_textarea textarea {
+  font-size: 13px;
+}
+
+.c_reply_box .comment_box {
+  padding: 15px 10px 5px 57px;
+}
+.c_reply_box .comment_box:after {
+  top: 20px;
+}
+
+/* search page*/
+.serch_tit {
+  padding-top: 34px;
+  font-size: 20px;
+}
+.topic_nav {
+  margin-bottom: 15px;
+}
+.topic_nav .history li {
+  max-width: 105px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+/* 마이페이지 - 코칭 */
+.question_button {
+  font-size: 11px;
+}
+.question_answer {
+  font-size: 12px;
+  width: 280px;
+}
+.question_answer:before {
+  right: 92px;
+}
+#trxMypCnt .common_list_box .common_list_thum.trxSml {
+  width: 130px;
+}
+/* .trxMypCnt .common_list_txt { margin-top: -5px; } */
+
+.trxLstLvl {
+  width: 53px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 11px;
+  padding: 0 5px;
+  margin-bottom: 5px;
+}
+
+.trxLstBtn .n_btn {
+  font-size: 14px;
+  padding: 0 7px;
+  /* height: 30px;
+  line-height: 28px; */
+  height: 35px;
+  line-height: 33px;
+  min-width: 90px;
+  padding: 0 10px;
+}
+.trxLstBtn .n_btn:first-child {
+  margin-left: 0;
+}
+.trxLstBtn > div {
+  top: 40px;
+  right: 15px;
+}
+.trxMreDot {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.trxLstDte > ul > li {
+  font-size: 12px;
+  line-height: 1.7em;
+}
+.trxLstDte > ul > li > s {
+  width: 14px;
+  height: 13px;
+  background-size: contain !important;
+}
+.trxLstDte > ul > li.date s {
+  width: 14px;
+  height: 12px;
+}
+.trxLstDte > ul > li.time s {
+  width: 14px;
+  height: 12px;
+}
+.trxLstDte > ul > li.complete s {
+  width: 14px;
+  height: 12px;
+}
+
+/* 마이페이지 -  refer gift */
+.trxLstDte2 > ul > li {
+  font-size: 12px;
+  line-height: 1.7em;
+}
+.trxLstDte2 > ul > li > s {
+  width: 14px;
+  height: 13px;
+  background-size: contain !important;
+}
+
+.trxMypCnt .trxLstTxt {
+  font-size: 13px;
+}
+
+/* watched */
+.trxMypFlt > dl {
+  padding: 10px;
+}
+.trxMypFlt > dl > dt {
+  margin: 0;
+  line-height: 30px;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 10px;
+}
+.trxMypFlt > dl > dt:first-child {
+  margin-top: 0;
+}
+.trxMypFlt > dl > dd {
+  width: 100%;
+  display: flex;
+  ustify-content: flex-start;
+  flex-wrap: wrap;
+}
+.trxMypFlt > dl > dd > .fake_select {
+  width: calc(50% - 1px);
+  margin-right: 2px;
+}
+.trxMypFlt > dl > dd > .fake_select:nth-child(2n) {
+  margin-right: 0;
+}
+
+/* 마이페이지 - 모바일 메뉴 */
+#trxMypCnt {
+  padding-top: 50px;
+}
+.trxMypCnt > div:first-child {
+  padding-top: 30px;
+}
+
+.my_nav_tit a {
+  /* font-size: 14px; */
+  padding: 0 15px;
+  height: 50px;
+  line-height: 50px;
+}
+.my_nav_tit a i {
+  right: 15px;
+}
+
+.my_nav_list .depth01 {
+  padding: 0 15px;
+}
+.my_nav_list .depth01 > a {
+  font-size: 14px;
+}
+.my_nav_list .depth02 a {
+  font-size: 14px;
+}
+
+/* 강사프로필 */
+.trxPrfPpl {
+  padding: 20px 0 25px;
+}
+.trxPrfPpl > div > strong {
+  font-size: 18px;
+  line-height: 1em;
+}
+.trxPrfPpl > div > span {
+  font-size: 13px;
+  line-height: 1em;
+  padding-bottom: 0;
+}
+.trxPrfPpl > div > div {
+  font-size: 13px;
+  text-align: center;
+}
+.trxPrfPpl > div > div.ppl_score_wrap {
+  display: none;
+}
+.trxTab > ul{
+    width: 100%;
+}
+.trxPrfPpl > div > div > div {
+  margin-top: 5px;
+}
+.trxTab > ul > li > a {
+  font-size: 15px;
+  line-height: 1.4em;
+  padding: 0 10px 12px 10px;
+}
+.trxTabCnt,
+.trxPrfLst {
+  /* margin: 15px 15px 20px 20px; */
+  margin: 15px 15px 0px 0px;
+  height: 200px;
+  /* padding-left:10px; */
+}
+.trxTabCnt > div {
+  margin-right: 12px;
+}
+.trxTabCnt > div > p {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.trxPrfVdo .common_list_top {
+  display: block;
+  margin-top: 12px;
+}
+.trxPrfVdo .common_list_top .left {
+  margin-bottom: 10px;
+}
+.trxPrfVdo .common_list_top .right {
+  margin-bottom: 10px;
+}
+
+.trxPrfLstIco {
+  font-size: 15px;
+  line-height: 1em;
+}
+
+/* 오버뷰 - 코칭 */
+.sub_wrap .trxTabTit {
+  line-height: 1.4;
+  margin-bottom: 5px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.trxPrfLst > div > ul > li > strong {
+  line-height: 1.6em;
+  font-size: 15px;
+}
+.trxPrfLst > div > ul > li > span {
+  font-size: 13px;
+  line-height: 1.7;
+}
+.trxPrfLst > div > ul > li > p {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.coaching_docu_wrap s {
+  width: 18px;
+  height: 18px;
+}
+
+/* 마이페이지 - account - skills */
+.trxMypFlt > div .tit {
+	font-size: 15px;
+}
+.trxMypInt > strong {
+  font-size: 18px;
+  line-height: 1.3em;
+}
+.trxMypInt > .trxMypIntDpt01 > li > strong {
+  font-size: 16px;
+  line-height: 16px;
+}
+.trxMypInt > .trxMypIntDpt01 > li > ul {
+  height: 165px;
+  display: block;
+}
+.trxMypInt > .trxMypIntDpt01 > li > ul > li {
+  width: 100%;
+}
+.trxMypInt > .trxMypIntDpt01 > li > ul > li > a {
+  line-height: 1.4;
+  padding: 10px;
+}
+
+.trxMypInt > .trxMypIntDpt02 > strong {
+  font-size: 16px;
+  line-height: 16px;
+  position: relative;
+  padding-left: 34px;
+}
+.trxMypInt > .trxMypIntDpt02 > strong > a {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.trxMypInt > .trxMypIntDpt02 > ul {
+  display: block;
+}
+.trxMypInt > .trxMypIntDpt02 > ul > li {
+  width: 100%;
+}
+.trxMypInt > .trxMypIntDpt02 > ul > li > a {
+  line-height: 1.4;
+  padding: 10px 15px;
+}
+
+/* .trxMypInt > .trxMypIntHas {
+  padding: 20px 20px 15px;
+} */
+.trxMypInt > .trxMypIntHas > strong {
+  font-size: 17px;
+  line-height: 1em;
+}
+
+/* 마이페이지 - activity */
+.activity_wr .common_list_txt .bottom > .left {
+  display: block;
+}

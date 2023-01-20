@@ -1,0 +1,18 @@
+/* my activity - skills */
+.trxMypInt > .trxMypIntDpt01 > li > ul {
+	height: 170px;
+	overflow: hidden;
+}
+.trxMypInt > .trxMypIntDpt01 > li > ul.open { 
+	height: auto;
+}
+.trxMypInt > .trxMypIntDpt01 > li > .skills_more { 
+	display:block; 
+}
+
+
+
+/* my classroom */
+.my_classroom_wrap .trxMypFlt {
+	display: none;
+} 

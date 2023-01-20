@@ -1,0 +1,264 @@
+.cart_order_end_wr .cart_order_end_right_box_pc .order_list_box,
+#project_list_wr .filter_package_box .project_filter_left_box,
+.cart_order_end_right_box_pc,
+.ovv_coaching_wrap .trxPrfTop02 .trxPrfTtlInf
+{
+    display: none;
+}
+#project_list_wr .project_top_slide_box .btn_h40_02,
+.cart_order_end_right_box_mob
+{
+    display: block;
+}
+
+
+
+
+/* 장바구니 결제페이지 */
+/* 왼쪽 박스 */
+.cart_order_wr{
+    padding:0 35px;
+    width:100%;
+    height:auto;
+}
+.cart_order_wr .cart_credit_left_box{
+    float: none;
+    width:100%;
+    height:auto;    
+}
+
+.cart_order_wr .cart_credit_box .same_wide{
+    width:100%;
+}
+.cart_order_wr .cart_credit_box .credit_input_middle_box{
+    padding:20px 10px;
+    width:100%;
+}
+.cart_order_wr .same_re_pri_ter_txt{
+    width:100%;
+}
+.cart_order_wr .refund_tri_img_box{
+    right:213px;
+}
+.cart_order_wr .about_refund_txt_box02 .refund_tri_img_box{
+    right:133px;
+}
+.cart_order_wr .about_refund_txt_box03 .refund_tri_img_box{
+    right:41px;
+}
+.cart_order_wr .cart_credit_left_box .same_cou_rem_box{
+    height:inherit;
+    
+}
+
+
+
+/* 오른쪽 박스 */
+.cart_order_wr .cart_order_right_box{
+    margin-top:30px;
+    width:100%;
+    float:none;
+}
+.cart_order_wr .cart_order_right_box .class_list{
+    height:inherit;
+}
+.cart_order_wr .cart_order_right_box .cart_title_price_wr{
+    width:100%;
+}
+
+
+/* 장바구니 결제완료페이지  */
+/* 왼쪽 박스 */
+.cart_order_end_wr{
+    width:100%;
+    padding:0 35px;
+}
+.cart_order_end_wr .cart_payment_left_box{
+    width:100%;
+    float:none;
+}
+.cart_order_end_wr .payment_order_details_box ul li:first-child{
+    padding-top:0;
+}
+.cart_order_end_wr .payment_order_details_box ul li{
+    height:auto;
+    display: inherit;
+    padding:25px 0 24px;
+}
+.cart_order_end_wr .payment_order_details_box span{
+    position:static;
+    padding-left:29px;
+}
+.cart_order_end_wr .cart_payment_left_box .same_re_pri_ter_txt{
+    width:100%;
+}
+.cart_order_end_wr .about_refund_txt_box1 .refund_tri_img_box{
+    right:210px;
+}
+.cart_order_end_wr .about_refund_txt_box2 .refund_tri_img_box{
+    right:130px;
+}
+.cart_order_end_wr .about_refund_txt_box3 .refund_tri_img_box{
+    right:41px;
+}
+
+
+
+/* 오른쪽 박스 */
+.cart_order_end_wr .cart_order_end_right_box{
+    margin-top:30px;
+    height:inherit;
+    float:none;
+    width:100%;
+    border-radius: 5px;
+}
+.cart_order_end_wr .cart_order_end_right_box .cart_list_wr{
+    padding-bottom:0;
+}
+.cart_order_end_wr .cart_order_end_right_box .m_t_order_list_box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 15px;
+    color: #111111;
+    cursor: pointer;
+}
+.cart_order_end_wr .m_t_order_list_box .order_list_img_box{
+    margin-right: 8px;
+    width: 18px;
+    height: 15px;
+
+}
+.cart_order_end_wr .m_t_order_list_box .order_list_img_box img{
+    width:100%;
+    vertical-align: top;
+}
+.cart_order_end_wr .cart_order_end_right_box .order_list_btn.flip{
+    transform: rotate(-180deg);
+}
+.cart_order_end_wr .cart_order_end_right_box .order_list_btn img{
+    width:100%;
+    vertical-align: top;
+}
+.cart_order_end_wr .cart_order_end_right_box .cart_list_box{
+    height:100%;
+}
+.cart_order_end_wr .class_list_box{
+    display: none;
+}
+.cart_order_end_wr .cart_order_end_right_box .class_list_box .class_list .cart_list_same:last-child{
+    border-bottom: none;
+}
+.cart_order_end_wr .cart_order_end_right_box .class_list_box .class_list .cart_list_price{
+    padding-right:0;
+}
+
+
+
+/* 회원가입, 로그인 */
+/* 일반전용 */
+.join_st_wr{
+    padding:0 35px;
+    width:100%;
+    max-width: 500px; 
+}
+.join_st_wr .general_create_account_box{
+    width:100%;
+}
+/* .join_st_wr .email_top_box .e_address{
+    width:calc(100% - 163px);
+} */
+
+
+/* 강사전용 */
+.join_teachers_wr{
+    padding:0 35px;
+    width:inherit;
+}
+
+/* 가입완료 */
+.sign_up_page_container{
+    padding:0 35px;
+    width:inherit;
+}
+
+
+
+
+
+/* 고객센터 메인 페이지 */
+#trxCntBtm{
+    max-width: 100%;
+    width: 100%;
+}
+#trxCntWrp.cs_wrap { 
+	background: #f5f5f5;
+}
+
+#trxCntBtm .trxCntLft{
+    /* padding-left:35px;
+    padding-right:35px; */
+    padding: 60px 35px 90px;
+	background: #fff;
+}
+
+.trxCntRgt{
+    padding-right:35px;
+    padding-left:35px;
+}
+
+
+
+/* 고객센터 서브 페이지 */
+.service_txt_wr{
+    width:100%;
+}
+#trxCntBtmWrp{
+    display: inherit;
+}
+#trxCntTop.trxCntTop_sub > div{
+    width:553px;
+    padding:15px;
+    display: inherit;
+}
+#trxCntTop.trxCntTop_sub > div > strong{
+    padding-bottom:23px;
+    font-size:27px;
+}
+.trxCntRgt:first-child{
+    padding-left:35px;
+}
+.trxCntVew{
+    padding-left:40px;
+}
+
+
+/* 기획전 리스트 */
+#project_list_wr .bg_gray{
+    width:100%;
+    padding-left:35px;
+}
+#project_list_wr .filter_package_box{
+    width:100%;
+}
+#project_list_wr .filter_package_box .project_package_right_box {
+    width: 100%;
+    padding:0 35px;
+}
+
+
+/* 기획전 상세페이지 */
+.project_details_wr{
+    width:100%;
+    padding:0 35px;
+}
+
+/* 강의 코칭 */
+.ovv_coaching_wrap .trxPrfTop02 .trxPrfPpl{
+    width: 280px;
+}
+
+/* mypage purchase_history 페이지 */
+.purchase_pop{
+
+}

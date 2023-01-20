@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: 'arial';
+    src: url('./arial/arial-webfont.woff2') format('woff2'),
+         url('./arial/arial-webfont.woff') format('woff'),
+         url('./arial/arial-webfont.ttf') format('truetype'),
+         url('./arial/arial-webfont.svg#arialregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'arial';
+    src: url('./arial/arialbd-webfont.woff2') format('woff2'),
+         url('./arial/arialbd-webfont.woff') format('woff'),
+         url('./arial/arialbd-webfont.ttf') format('truetype'),
+         url('./arial/arialbd-webfont.svg#arialbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+
+
+/* @font-face {
+    font-family: 'arial';
+	src: url('./arial-webfont.woff2') format('woff2'),
+       url('./arial-webfont.woff') format('woff'), 
+       url('./ARIAL.TTF')  format('truetype');
+
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'arial';
+    src: url('./ARIALBD.woff2') format('woff2'), 
+       url('./ARIALBD.woff') format('woff'), 
+       url('./ARIALBD.TTF')  format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Segoe UI';
+font-style: italic;
+font-weight: 400;
+src: local('Segoe UI Italic'), url('Segoe UI Italic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 700;
+src: local('Segoe UI Bold'), url('Segoe UI Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Segoe UI';
+font-style: italic;
+font-weight: 700;
+src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('woff');
+} */
