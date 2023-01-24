@@ -6923,6 +6923,7 @@ body.on {
   width: 100%;
   border-radius: 100px;
   height: 50px;
+  font-weight: 700;
 }
 .top-mobile-res{
   position: absolute;
@@ -6952,7 +6953,7 @@ body.on {
   min-width: 45px;
   position: absolute;
   left: 20px;
-  bottom: 15px;
+  bottom: 13px;
 }
 .top-mobile-res p{
   font-weight: 700;
@@ -6966,12 +6967,15 @@ body.on {
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
   border-radius: 20px 20px 10px 10px;
   padding: 80px 20px 26px;
-  display: none;
-
+  
   position: fixed;
-  bottom: 0;
+  bottom: -100%;
   z-index: 31;
   left: 0;
+  transition: .4s;
+}
+.reservation.active{
+  bottom: 0;
 }
 .reservation *{
   font-family: 'Inter', sans-serif;
@@ -6989,6 +6993,10 @@ body.on {
   margin-bottom: 15px;
   font-weight: 600;
 }
+.reservation .btn_gold:hover{
+  background: grey;
+  border-color: grey;
+}
 @media only screen and (min-width: 420px){
   .btns-res{
     display: flex;
@@ -7004,10 +7012,12 @@ body.on {
 .reservation .btn_dark{
   background: #343434;
   color: #ffffff;
+  border: 1px solid #343434;
 }
 .reservation .btn_dark:hover{
-  background: grey;
-  border-color: grey;
+  background: #ffffff;
+  color: #343434;
+
 }
 .text-info-res{
   font-weight: 400;
@@ -7099,7 +7109,6 @@ body.on {
   }
   .reservation{
     padding: 20px 20px 26px;
-    display: block;
     position: static;
     border-radius: 10px;
   }
@@ -7140,7 +7149,7 @@ body.on {
   }
 
 }
-@media only screen and (min-width: 1280px){
+@media only screen and (min-width: 1281px){
   .reservation{
     margin-top: 0;
   }

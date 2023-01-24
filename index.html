@@ -3457,7 +3457,7 @@ $('.closeFloatingCart').on('click', function() {
              </div><!-- left -->
              <div class="right">
                  <div class="open-reservation">
-                     <button class="n_btn btn_gold btn_h40">Buy Now</button>
+                     <button class="n_btn btn_gold btn_h40">Buy Now ($49.99)</button>
                  </div>
                  <div class="reservation">
                      <div class="top-mobile-res">
@@ -3483,7 +3483,7 @@ $('.closeFloatingCart').on('click', function() {
                              </button>
                          </div>
                      </div>
-                     <p class="text-info-res">Book me for a personalized video message for any occasion for you or a loved one</p>
+                     <p class="text-info-res">Book me for a personalized video message for any occasion for you</p>
                      <div class="price-res">
                          <p class="new-price">
                              <sup class="smb-dollar">$</sup>74<sup class="cents">99</sup>
@@ -6909,18 +6909,18 @@ $(window).resize(function() {
         const btnOpenReser = openReservation.querySelector("button");
         if(openReservation && btnOpenReser){
             btnOpenReser.addEventListener('click', function(){
-                reservation.classList.add('d-block')
+                reservation.classList.add('active')
             })
             closeBtn.addEventListener('click', function(){
-                if(reservation.classList.contains("d-block")){
-                    reservation.classList.remove("d-block");
+                if(reservation.classList.contains("active")){
+                    reservation.classList.remove("active");
                 }
             })
             document.addEventListener( 'click', (e) => {
                 const withinReservation = e.composedPath().includes(reservation);
                 const withinOpenReser = e.composedPath().includes(btnOpenReser);
                 if ( ! withinReservation && ! withinOpenReser ) {
-                    reservation.classList.remove("d-block");
+                    reservation.classList.remove("active");
                 }
             })
         }
