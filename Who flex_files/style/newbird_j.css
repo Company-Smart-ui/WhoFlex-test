@@ -6973,6 +6973,7 @@ body.on {
   z-index: 31;
   left: 0;
   transition: .4s;
+  width: 100%;
 }
 .reservation.active{
   bottom: 0;
